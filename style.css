@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: century gothic, sans-serif; 
+}
+body {
+    background:linear-gradient(#fff, #ff9fff);
+}    
+.navbar {
+    width: 100%;
+    background-color: rgb(48, 9, 59);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu ul {
+    display: flex;
+    padding: 30px;
+}
+.nav-menu ul li{
+    list-style:none ;
+    padding: 15px 25px;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+.nav-menu ul li:hover{
+    background-color: #9E2E9E;
+    transition: 0.2s ease;
+}
+.logo {
+    width: 25%;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+h5 {
+    font-size: larger;
+    color: #bd5dbd;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+h1{
+    font-size: 50px;
+    color: #9E2E9E;
+    text-align: center;
+    padding: 50px;
+}
+h2 {
+    text-align: center;
+    padding: 10px;
+}
+#rencontre {
+    text-align: center;
+}
+.container-profiles {
+    display:flex;
+    align-content:space-evenly;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+    margin: auto;
+    text-align: center;
+    
+}
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.team-section {
+    width: 100%;
+}
+.team-section .container {
+    width: 80%;
+    margin: auto;
+}
+.team-section .container .row {
+    width: 60%;
+    margin: auto;
+}
+.team-section .container .row .title h2 {
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+.team-section .container .row .title p {
+    font-size: 18px;
+    margin: 30px 0px;
+}
+/*.team-section .container .team-members {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    margin-top: 50px;
+}*/
+.team-section .container .team-members .profile {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.image-section img{
+    width: 30%;
+      
+}
+.image-section{
+    display: flex;
+    justify-content: center;
+}
+.team-section .container .team-members .profile .content {
+    width: 100%;
+    text-align: center;
+}
+.team-section .container .team-members .profile .content h3 {
+    font-size: 27px;
+    margin-top: 10px;
+    letter-spacing: 1.5px;
+    color: #9E2E9E;
+}
+
+
+.formulaire{
+    width: 400px;
+    height: 400px;
+    min-height: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: #090909;
+  }
+  .formulaire{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+  
+  form input, 
+  form select, 
+  form textarea {
+    width: 100%;
+    margin: 5px 0;
+  }
+  .formulaire {
+    background-color: #fc6dfc59;
+    /* Autres propriétés de style */
+  }
+  .fonddepage{
+    width: 400px;
+    height: 700px;
+    min-height: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #f7caf3;
+    border-radius: 5px;
+  }
+  .fonddepage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+  form input, 
+  form select, 
+  form textarea {
+    width: 100%;
+    margin: 5px 0;
+}
+.fonddepage {
+    background-color: rgb(241, 210, 235);
+    }*/
+.fonddepage {
+    color: #090909; /* définit la couleur du texte */
+    font-size: 20px; /* définit la taille du texte */
+}
+
+footer{
+    width: 100%;
+    background-color: rgb(48, 9, 59);
+    padding: 20px;
+    color:#fff;
+}
